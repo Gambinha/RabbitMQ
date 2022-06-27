@@ -1,0 +1,19 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "consumer": "node src/consumer.js",
+    "publisher1": "node src/publisher1.js",
+    "publisher2": "node src/publisher2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/amqplib": "^0.8.2",
+    "amqplib": "^0.10.0"
+  }
+}
